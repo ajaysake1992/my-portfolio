@@ -1,0 +1,38 @@
+/* Info Section */
+.info .svg-inline--fa {
+  margin-right: 15px;
+  color: #ccd1d6;
+}
+
+.info .svg-inline--fa.fa-envelope-o {
+  font-size: 14px;
+}
+
+.info ul {
+  margin-bottom: 0;
+}
+
+.info li {
+  margin-bottom: 15px;
+}
+
+.info li:last-child {
+  margin-bottom: 0;
+}
+
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 24px;
+}
+
+.my-portfolio {
+    text-decoration: none !important;
+    color: #2d844e !important;
+}
+
+.my-portfolio:hover {
+    text-decoration: underline !important;
+    color: #2d844e !important;
+}
