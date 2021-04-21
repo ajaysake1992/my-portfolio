@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './main.scss';
-import About from './about';
-import Projects from './projects';
-import Experience from './experience';
-import Aside from './aside';
+import About from './about/about';
+import Projects from './projects/projects';
+import Experience from './experience/experience';
+import Aside from '../aside/aside';
 
 class Main extends Component {
     constructor(props) {

@@ -14,12 +14,7 @@ class About extends Component {
           <h2 className="heading">{heading}</h2>
           <div className="content">
             <p>
-              Write a brief intro about yourself. It's a good idea to include
-              your personal interests and hobbies as well. Lorem ipsum dolor sit
-              amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-              dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Donec quam felis,
-              ultricies nec. Commodo ligula eget dolor. Aenean massa.
+            Senior Frontend Engineer with 5.2 years of professional experience as a fullstack developer but more into frontend web development.Utility enthusiastic.Worked on micro frontend based web application using Angular. <i className="fas fa-heart"></i> to build product and open to work on backend technologies.
             </p>
           </div>
         </div>
