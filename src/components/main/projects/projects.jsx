@@ -30,25 +30,20 @@ class Projects extends Component {
                 <a
                   className="text-decoration-projects"
                   href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/">
-                  Launch - The perfect Bootstrap template for SaaS products
+                  My PortFolio
                 </a>
               </h3>
 
               <div className="desc text-left">
                 <p>
-                  You can promote your main project here. Suspendisse in tellus
-                  dolor. Vivamus a tortor eu turpis pharetra consequat quis non
-                  metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris
-                  dui tincidunt enim, eget iaculis ante dolor non turpis. Ut
-                  enim ad minima veniam, quis nostrum exercitationem ullam
-                  corporis suscipit laboriosam.
+                  I have designed and developed my own portfolio using React, Redux and Springboot. And have deployed this on firebase platform as of now.
                 </p>
               </div>
-              <a
+              {/* <a
                 className="btn btn-cta-secondary"
                 href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/">
                 <i className="fas fa-thumbs-up"></i> Back my project
-              </a>
+              </a> */}
             </div>
             <hr className="divider" />
             <div className="item row">
@@ -70,11 +65,11 @@ class Projects extends Component {
                   </a>
                 </h3>
                 <p className="mb-2">
-                  You can put one of your secondary projects here. Suspendisse
-                  in tellus dolor. Vivamus a tortor eu turpis pharetra consequat
-                  quis non metus. Aliquam aliquam, orci eu suscipit
-                  pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                  dolor non turpis.
+                IGTB’s Contextual Banking Experience Platform (CBX) is a white label digital banking platform and product processors to manage corporate cash. It provides account, payment, liquidity, and trade services to the banks across the globe. Currently, we are providing payment services to the CIBC bank.
+                ●	Working as a Sr. Frontend lead for a payment module.
+                ●	Working extensively for the send money, RTP, and wire payment screens development using Angular 6.
+                ●	Working on ANGULAR 6, HTML, SCSS, and Clarity Design Systems.
+
                 </p>
                 <p>
                   <a
@@ -106,11 +101,11 @@ class Projects extends Component {
                   </a>
                 </h3>
                 <p className="mb-2">
-                  You can put one of your secondary projects here. Suspendisse
-                  in tellus dolor. Vivamus a tortor eu turpis pharetra consequat
-                  quis non metus. Aliquam aliquam, orci eu suscipit
-                  pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                  dolor non turpis.
+                This is the digital reading platform for everyone but well suited for students. Worked on the web reader which is the main CPU of the application. Strong knowledge of EPUB JS 3 library. Implemented bookmark, table of content, progress bar, highlight, note, dictionary (Oxford) and Read aloud (amazon poly) functionalities.
+                ●	Worked on an React 16, HTML5, SCSS, BOOTSTRAP.
+                ●	Worked on project planning using JIRA management tool.
+                ●	Worked on a version control system for commit GIT and JENKINS for builds deployment.
+
                 </p>
                 <p>
                   <a
@@ -138,15 +133,15 @@ class Projects extends Component {
                   <a
                   className="text-decoration-projects"
                     href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/">
-                    Spraio - Insurance portal
+                    Spraoi - Insurance Application
                   </a>
                 </h3>
                 <p className="mb-2">
-                  You can put one of your secondary projects here. Suspendisse
-                  in tellus dolor. Vivamus a tortor eu turpis pharetra consequat
-                  quis non metus. Aliquam aliquam, orci eu suscipit
-                  pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                  dolor non turpis.
+                This is an insurance domain web application. It controls the customer’s data. Also, it’s related to high-cost insurance and its activities.
+                ●	Worked on a React 16, HTML5, SCSS, and BOOTSTRAP.
+                ●	Done code refactored i.e. rewritten code in ES6 features.
+                ●	Worked on a version control system for commit GIT and JENKINS for builds deployment.
+
                 </p>
                 <p>
                   <a
@@ -174,13 +169,14 @@ class Projects extends Component {
                   <a
                   className="text-decoration-projects"
                     href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/">
-                    Pulp and Paper
+                    GL&V: Pulp and Paper
                   </a>
                 </h3>
                 <p className="mb-2">
-                  You can put one of your secondary projects here. Suspendisse
-                  in tellus dolor. Vivamus a tortor eu turpis pharetra consequat
-                  quis non metus.
+                It is a web application. It keeps data management about customers, distributors, and dealers for GL&V Inc.
+                ●	Worked on an ANGULARJS framework.
+                ●	Worked on web design using HTML, CSS, and BOOTSTRAP.
+
                 </p>
                 <p>
                   <a
@@ -215,9 +211,10 @@ class Projects extends Component {
                 </h3>
                 <p className="mb-2">
                   {" "}
-                  You can put one of your secondary projects here. Quisque
-                  rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-                  Curabitur ullamcorper ultricies nisi.
+                  It is a web application. It keeps all information about orphans and handicapped individuals. It includes their physical to mental health details. Diferent agencies controlling these contracts.
+                  ●	Worked on JAVASCRIPT for maintenance and bug fnding.
+                  ●	Worked on HTML, CSS, ANGULARJS, and JQUERY.
+
                 </p>
                 <p>
                   <a

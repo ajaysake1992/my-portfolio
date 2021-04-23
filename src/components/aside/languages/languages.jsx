@@ -8,42 +8,42 @@ class Languages extends Component {
   }
   render() {
     return (
-      <aside class="languages aside section">
-        <div class="section-inner shadow-sm rounded">
-          <h2 class="heading">Languages</h2>
-          <div class="content">
-            <ul class="list-unstyled">
-              <li class="item">
-                <span class="title">
+      <aside className="languages aside section">
+        <div className="section-inner shadow-sm rounded">
+          <h2 className="heading">Languages</h2>
+          <div className="content">
+            <ul className="list-unstyled">
+              <li className="item">
+                <span className="title">
                   <strong>English:</strong>
                 </span>
-                <span class="level">
-                Professional Proficiency <br class="visible-xs" />
-                  <i class="fas fa-star"></i> <i class="fas fa-star"></i>{" "}
-                  <i class="fas fa-star"></i> <i class="fas fa-star-half"></i>{" "}
-                  {/* <i class="fas fa-star"></i>{" "} */}
+                <span className="level">
+                Professional Proficiency <br className="visible-xs" />
+                  <i className="fas fa-star"></i> <i className="fas fa-star"></i>{" "}
+                  <i className="fas fa-star"></i> <i className="fas fa-star-half"></i>{" "}
+                  {/* <i className="fas fa-star"></i>{" "} */}
                 </span>
               </li>
-              <li class="item">
-                <span class="title">
+              <li className="item">
+                <span className="title">
                   <strong>Hindi:</strong>
                 </span>
-                <span class="level">
-                   Native Speaker <br class="visible-sm visible-xs" />
-                  <i class="fas fa-star"></i> <i class="fas fa-star"></i>{" "}
-                  <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>{" "}
+                <span className="level">
+                   Native Speaker <br className="visible-sm visible-xs" />
+                  <i className="fas fa-star"></i> <i className="fas fa-star"></i>{" "}
+                  <i className="fas fa-star"></i> <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>{" "}
                 </span>
               </li>
-              <li class="item">
-                <span class="title">
+              <li className="item">
+                <span className="title">
                   <strong>Marathi:</strong>
                 </span>
-                <span class="level">
-                   Native Speaker <br class="visible-sm visible-xs" />
-                  <i class="fas fa-star"></i> <i class="fas fa-star"></i>{" "}
-                  <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>{" "}
+                <span className="level">
+                   Native Speaker <br className="visible-sm visible-xs" />
+                  <i className="fas fa-star"></i> <i className="fas fa-star"></i>{" "}
+                  <i className="fas fa-star"></i> <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>{" "}
                 </span>
               </li>
             </ul>

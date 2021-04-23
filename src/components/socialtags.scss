@@ -1,0 +1,37 @@
+.navbar {
+   .profile-content {
+     .social a {
+       background: #b0b7bf;
+       width: 36px;
+       height: 36px;
+       display: inline-block;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+       border-radius: 50%;
+       -moz-background-clip: padding;
+       -webkit-background-clip: padding-box;
+       background-clip: padding-box;
+       color: #fff;
+       text-align: center;
+     }
+ 
+     .social a:hover {
+       background: #778492;
+     }
+ 
+     .social a .svg-inline--fa {
+       font-size: 20px;
+       margin-top: 8px;
+     }
+   }
+ }
+ 
+ .list-inline-item {
+   display: inline-block;
+ }
+ 
+ .list-inline-item:not(:last-child) {
+   margin-right: 0.5rem;
+ }
