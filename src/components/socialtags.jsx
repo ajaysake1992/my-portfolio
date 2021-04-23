@@ -3,12 +3,14 @@ import "./socialtags.scss";
 import withTooltip from "./hoc/withTooltip";
 
 class Socialtags extends Component {
+
   constructor(props) {
     super(props);
     this.state = {};
   }
+  
   render() {
-    const { socialMediaTags, showTooltip, currentTag } = this.props;
+    const { socialMediaTags } = this.props;
     return (
       <React.Fragment>
         <ul className="social list-inline">
@@ -21,14 +23,14 @@ class Socialtags extends Component {
               }
               key={tag.icon}
             >
-              <a href={tag.href}>
+              <a href={tag.href} data-toggle="tooltip" title={tag.name}>
                 <i className={tag.icon}></i>
               </a>
             </li>
           ))}
         </ul>
-        {showTooltip && (
-          <button
+        {/* {showTooltip && (
+          <a
             type="button"
             className="btn btn-secondary"
             data-bs-toggle="tooltip"
@@ -36,8 +38,8 @@ class Socialtags extends Component {
             title="Tooltip on top"
           >
             {currentTag}
-          </button>
-        )}
+          </a>
+        )} */}
       </React.Fragment>
     );
   }
