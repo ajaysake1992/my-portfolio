@@ -26,6 +26,9 @@ class Header extends Component {
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid clearfix">
           <img
+            style={{
+              width: 180,
+              height: 180}}
             className="profile-image img-fluid float-left rounded-circle"
             src="assets/images/profile.png"
             alt=""

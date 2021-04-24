@@ -29,7 +29,7 @@ class Skills extends Component {
                     data-animation="true"
                     title="You can use the tooltip to explain more about your skill level..."
                   >
-                    <i className="fas fa-info-circle"></i>Expert
+                    {/* <i className="fas fa-info-circle"></i>Expert */}
                   </span>
                 </h3>
                 <div className="level-bar">
@@ -47,7 +47,7 @@ class Skills extends Component {
                     data-animation="true"
                     title="You can use the tooltip to explain more about your skill level..."
                   >
-                    <i className="fas fa-info-circle"></i>Expert
+                    {/* <i className="fas fa-info-circle"></i>Expert */}
                   </span>
                 </h3>
                 <div className="level-bar">
@@ -65,7 +65,7 @@ class Skills extends Component {
                     data-animation="true"
                     title="You can use the tooltip to explain more about your skill level..."
                   >
-                    <i className="fas fa-info-circle"></i>Pro
+                    {/* <i className="fas fa-info-circle"></i>Pro */}
                   </span>
                 </h3>
                 <div className="level-bar">
@@ -83,7 +83,7 @@ class Skills extends Component {
                     data-animation="true"
                     title="You can use the tooltip to explain more about your skill level..."
                   >
-                    <i className="fas fa-info-circle"></i>Good
+                    {/* <i className="fas fa-info-circle"></i>Good */}
                   </span>
                 </h3>
                 <div className="level-bar">
