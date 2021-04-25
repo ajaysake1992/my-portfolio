@@ -6,6 +6,11 @@ class About extends Component {
     super(props);
     this.state = {};
   }
+
+  // componentDidMount() {
+  //   throw new Error('I am on a fire!');
+  // }
+
   render() {
     const {heading} = this.props;
     return (
