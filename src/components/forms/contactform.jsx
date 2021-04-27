@@ -1,16 +1,40 @@
 import React from "react";
 import { useFormik } from "formik";
+import './contactform.scss';
+
+const initialValues = {
+  emailAddress: "",
+  subjectDetails: "",
+};
+
+const onSubmit = (values) => {
+  console.log("Form values", values);
+};
+
+const validate = (values) => {
+  let errors = {};
+
+  if (!values.emailAddress) errors.emailAddress = "This is required field.";
+  else if (
+    !/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+      values.emailAddress
+    )
+  )
+    errors.emailAddress = "This is invalid email.";
+
+  if (!values.subjectDetails) errors.subjectDetails = "This is required field.";
+
+  return errors;
+};
 
 function Contactform() {
   const formik = useFormik({
-    initialValues: {
-      emailAddress: "",
-      subjectDetails: "",
-    },
-    onSubmit: (values) => {
-      console.log("Form values", values);
-    },
+    initialValues,
+    onSubmit,
+    validate,
   });
+
+  console.log('Form toched', formik.touched);
 
   return (
     <React.Fragment>
@@ -52,10 +76,10 @@ function Contactform() {
                     className="form-control"
                     id="emailAddress"
                     name="emailAddress"
-                    onChange={formik.handleChange}
-                    value={formik.values.emailAddress}
+                    {...formik.getFieldProps('emailAddress')}
                     placeholder="name@example.com"
                   />
+                  { formik.touched.emailAddress && formik.errors.emailAddress ? <div className="inline-error">{formik.errors.emailAddress}</div> : null}
                 </div>
                 <div className="mb-3">
                   <label
@@ -68,10 +92,10 @@ function Contactform() {
                     className="form-control"
                     id="subjectDetails"
                     name="subjectDetails"
-                    onChange={formik.handleChange}
-                    value={formik.values.subjectDetails}
+                    {...formik.getFieldProps('subjectDetails')}
                     rows="3"
                   ></textarea>
+                  { formik.touched.subjectDetails && formik.errors.subjectDetails ? <div className="inline-error">{formik.errors.subjectDetails}</div> : null}
                 </div>
               </div>
 
