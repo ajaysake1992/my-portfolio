@@ -13,9 +13,7 @@ class Skills extends Component {
           <h2 className="heading">Skills</h2>
           <div className="content">
             <p className="intro">
-              Intro about your skills goes here. Keep the list lean and only
-              show your primary skillset. You can always provide a link to your
-              Linkedin or Github profile so people can get more info there.
+              FE developer worked on Angular and React. Have good understanding of Java SE and docker basic.
             </p>
 
             <div className="skillset">
