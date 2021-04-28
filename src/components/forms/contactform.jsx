@@ -7,9 +7,9 @@ const initialValues = {
   subjectDetails: "",
 };
 
-const onSubmit = (values) => {
-  console.log("Form values", values);
-};
+// const onSubmit = (values) => {
+//   console.log('textInput', textInput);
+// };
 
 const validate = (values) => {
   let errors = {};
@@ -27,10 +27,13 @@ const validate = (values) => {
   return errors;
 };
 
-function Contactform() {
+function Contactform(props) {
+  
   const formik = useFormik({
     initialValues,
-    onSubmit,
+    onSubmit: (values) => {
+      // post form data using axios
+    },
     validate,
   });
 

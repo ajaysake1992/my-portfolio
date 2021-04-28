@@ -39,11 +39,6 @@ class Projects extends Component {
                   I have designed and developed my own portfolio using React, Redux and Springboot. And have deployed this on firebase platform as of now.
                 </p>
               </div>
-              {/* <a
-                className="btn btn-cta-secondary"
-                href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/">
-                <i className="fas fa-thumbs-up"></i> Back my project
-              </a> */}
             </div>
             <hr className="divider" />
             <div className="item row">

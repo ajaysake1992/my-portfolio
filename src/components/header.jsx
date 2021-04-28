@@ -48,7 +48,7 @@ class Header extends Component {
             >
               <i className="fas fa-paper-plane"></i> Contact Me
             </button>
-            <Contactform/>
+            <Contactform history={this.props.history}/>
           </div>
         </div>
       </nav>
