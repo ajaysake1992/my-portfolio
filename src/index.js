@@ -5,13 +5,18 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter  } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store/index";
 
+console.log('store', store);
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter >
-      <App />
-    </BrowserRouter >
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
