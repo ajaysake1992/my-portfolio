@@ -11,7 +11,7 @@ function About(props) {
         <h2 className="heading">{heading}</h2>
         <div className="content">
           <p>
-          Frontend Architect with more than six years of professional experience as a fullstack developer but more into frontend development.Utility enthusiastic.Worked on micro frontend based web applications using Angular and React. <i className="fas fa-heart"></i> to build product and open to explore on backend technologies.
+          I'm a seasoned Fullstack developer with over 8+ years of professional experience, and my passion for crafting exceptional user experiences has been the driving force behind my career. With a solid foundation as a full-stack developer, my journey has predominantly led me to the vibrant world of frontend development.
           </p>
         </div>
       </div>

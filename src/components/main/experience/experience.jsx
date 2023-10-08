@@ -23,7 +23,7 @@ class Experience extends Component {
                 </span>{" "}
                 <span className="year">(Jan 2022 - Present)</span>
               </h3>
-              <p>Working as a Frontend Architect.</p>
+              <p>Working as a Fullstack developer.</p>
             </div>
             <div className="item">
               <h3 className="title">
@@ -35,7 +35,7 @@ class Experience extends Component {
                 </span>{" "}
                 <span className="year">(April 2021 - Jan 2022)</span>
               </h3>
-              <p>Worked as a Senior Frontend Developer.</p>
+              <p>Worked as a Fullstack developer Developer.</p>
             </div>
             <div className="item">
               <h3 className="title">

@@ -9,7 +9,7 @@ function Socialtags(props) {
   return (
     <React.Fragment>
       <ul className="social list-inline">
-        {socialMediaTags.map((tag, index, arr) => (
+        {socialMediaTags?.map((tag, index, arr) => (
           <li
             className={
               index === arr.length - 1

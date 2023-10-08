@@ -36,7 +36,7 @@ class Projects extends Component {
 
               <div className="desc text-left">
                 <p>
-                  I have designed and developed my own portfolio using React, Redux and Springboot. And have deployed this on firebase platform as of now.
+                  I have designed and developed my own portfolio using React, Redux. And have deployed this on firebase platform as of now.
                 </p>
               </div>
             </div>
